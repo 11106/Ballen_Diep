@@ -23,7 +23,7 @@ function draw() {
     yJager -= 100;
   }
   if (keyIsDown(DOWN_ARROW)) {
-    yJager += 100;
+    yJager += 99;
   }
 
   xJager = constrain(xJager,0,width - 100);
